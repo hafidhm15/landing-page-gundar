@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+<style>
+    body{
+        margin: 0;
+        font:18px/28px Arial, Helvetica, sans-serif;
+        background: hotpink;
+    }
+
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .login-box{
+        margin-top: 150px;
+        flex-basis: 400px;
+        background: #fff;
+        padding: 20px;
+    }
+
+    .login-box h2{
+        border-bottom: 1px solid;
+        color:#555;
+        text-align: center;
+        padding-bottom: 20px;
+        margin: 0 0 20px;
+    }
+
+    input, select{
+        width: 100%;
+        padding: 15px 0px;
+        margin: 8px 0;
+        border: 1px solid #ccc;
+    }
+
+    input[type=submit] {
+        background-color: blue;
+        border: none;
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+    }
+</style>
+
+</head>
+
+<body>
+    <div class="container">
+        <section class="login-box">
+    <h2>Login Aplikasi</h2>
+    <form>
+    <input type="text" placeholder="Username" id="username">
+    <input type="password" placeholder="Password" id="password">
+    <input type="submit" value="login">
+</form>
+</div>
+    </div>
+</body>
+
+
+</html>
